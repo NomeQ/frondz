@@ -1,0 +1,54 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: sans-serif;
+	width: 90%;
+	max-width: 740px;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 1.32;
+}
+
+h1 {
+	
+	margin-bottom: 5px;
+	-webkit-margin-after: 0.2em
+}
+
+h3 {
+	color: #666;
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
+
+.you {
+	color: #004080;
+}
+
+.fritzbot {
+	color: #800060;
+}
+
+.nomebot {
+	color: #004d4d;
+}
+
+#chat-area {
+	margin-top: 0px;
+	border-top: 2px solid #999;
+}
+
+input[type="text"] {
+	border-radius: 5px;
+}
+
+img {
+	max-width: 80%;
+	margin-bottom: 24px;
+}
+

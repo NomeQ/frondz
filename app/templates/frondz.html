@@ -1,0 +1,19 @@
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="static/styles.css">
+        <title>Frondz Chat</title>
+    </head>
+    <body>
+    <h1>Chat with Frondz!</h1>
+    <h3>We have fun.</h3>
+	<div id="chat-area">
+		{% for chat in chats %}
+		<div class="{{ chat.name.lower() }}"><p>{{ chat.name }}: {{ chat.text }}</p></div>
+		{% endfor %}
+	</div>
+	<form action="" method="post" name="chat">
+		{{ form.hidden_tag() }}
+		<p>Chat: {{ form.msg(size=80) }} {{ form.send }}</p>
+	</form>
+    </body>
+</html>
